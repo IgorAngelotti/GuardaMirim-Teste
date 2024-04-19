@@ -1,0 +1,74 @@
+.container{
+    max-width: 1400px;
+    margin: 20px auto 40px auto;
+    padding: 20px;
+}
+
+.container h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#parceiros{
+    background-color: white;
+    flex: 1;
+    color: black;
+}
+
+#parceiros a{
+    color: black;
+}
+
+.grid-contatos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-contatos img{
+    width: 80%;
+    height: 70%;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131745;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.5em;
+ 
+    padding: 4px;
+    max-width: 100%;
+    min-height: 100px;
+   
+}
+
+@media only screen and (max-width: 600px){
+    .section-header h1{
+        display: none;
+    }
+
+    .section-header a{
+        font-size: 1.3em;
+    }
+
+
+    .grid-contatos{
+        grid-template-columns: 1fr;
+    }
+
+    .contato{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .grid-contatos{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

@@ -1,0 +1,83 @@
+.container{
+    max-width: 1400px;
+    margin: 20px auto 40px auto;
+    padding: 20px;
+}
+
+.container h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#contato{
+    background-color: white;
+    flex: 1;
+    color: black;
+}
+
+#contato a{
+    color: black;
+}
+
+.grid-contatos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131745;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 5px rgba(102, 101, 101, 0.268);
+    gap: 10px;
+    padding: 4px;
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #7b81bdcb;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #131745;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .section-header h1{
+        display: none;
+    }
+
+    .section-header a{
+        font-size: 1.3em;
+    }
+
+    
+   
+
+    .grid-contatos{
+        grid-template-columns: 1fr;
+    }
+
+    .contato{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .grid-contatos{
+        grid-template-columns: 1fr;
+    }
+
+}
