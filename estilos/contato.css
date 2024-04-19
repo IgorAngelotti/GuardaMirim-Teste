@@ -58,19 +58,13 @@ footer {
         display: none;
     }
 
-    .section-header a{
-        font-size: 1.3em;
-    }
-
-    
-   
 
     .grid-contatos{
         grid-template-columns: 1fr;
     }
 
     .contato{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 

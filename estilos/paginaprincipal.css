@@ -1,6 +1,3 @@
-.section-header a{
-    font-size: 1.2em;
-}
 
 #paginainicial{
     background-color: white;
@@ -54,10 +51,6 @@ section{
 @media only screen and (max-width: 600px) {
     .section-header h1{
         display: none;
-    }
-
-    .section-header a{
-        font-size: 1.3em;
     }
 
     

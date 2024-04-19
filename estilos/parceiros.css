@@ -51,10 +51,6 @@
         display: none;
     }
 
-    .section-header a{
-        font-size: 1.3em;
-    }
-
 
     .grid-contatos{
         grid-template-columns: 1fr;
